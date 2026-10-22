@@ -24,7 +24,7 @@ Hx711 loadCell(A0, A1);
 ////// Stepper Variables
 
 int pulseLength = 10;
-float stepsPerMM = 200 * 2 * (13 + 212.0 / 289.0) / 2; // Steps per rev * Microstepping * Gear reduction ratio / Pitch
+float stepsPerMM = 200 * 2 * (19 + 38.0 / 187.0) / 2; // Steps per rev * Microstepping * Gear reduction ratio / Pitch (STEPPERONLINE 17HS19-1684S-PG19, 19.19:1; was 13.73:1 PG14)
 float stepsPerSecond = stepsPerMM / 60; //1mm/min
 int slowSpeedDelay = 3000;    //Time delay between steps for jogging slowly
 int fastSpeedDelay = 300;     ////Time delay between steps for jogging fast
