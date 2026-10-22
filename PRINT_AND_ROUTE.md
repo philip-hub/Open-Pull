@@ -3,6 +3,19 @@
 This covers the version being built: the **ATO 500 kg load cell** mod with **500 mm lead screws**
 (see [the mod README](CAD/TestMachine/ATO-500kg-LoadCell-Mod/README.md)). Paths are relative to this folder.
 
+## Ready-to-use folders
+
+Every file you need is copied into two folders. The file names say what the part is and how many to make (`_x2` = make 2).
+The tables below give the original source of each file.
+
+| Folder | Contents |
+|---|---|
+| `Build/Print/` | 12 STLs for the machine (`01`–`12`), plus `optional/` with the tools, test specimens and hooks |
+| `Build/Route/` | 5 STEP files for the wood parts (`01`–`05`) and the crosshead-beam drilling drawing, plus `optional_crosshead_plates/` if you route the plates instead of printing them |
+
+Files `01`–`05` in `Build/Print/` are already in print orientation. Lay `06`–`12` flat in the slicer; the notes in the table
+below say which face goes down.
+
 The machine has three kinds of parts:
 
 * **Printed:** clamps, crosshead plates and spacers, motor brackets, bottom bearing holders, two small lead-screw nuts.
